@@ -28,10 +28,6 @@ body {
     animation: count 13s steps(13) infinite;
 }
 
-.countdown__numbers:first-child{
-    position: relative;
-}
-
 @keyframes count {
     0% {
         top: 0;
@@ -40,44 +36,3 @@ body {
         top: -26em;
     }
 }
-
-
-/*.countdown {
-  
-  display: inline-block;
-  position: relative;
-  width: 1em;  
-  height: 1em;
-  border: 1px solid;
-  overflow: hidden;
-  vertical-align: text-top;
-}
-
- .countdown-numbers{
-    position: absolute;
-    width: 1em;
-    line-height: 1em;  
-    text-align: center;
-    animation: count 12s steps(12);
-    animation-fill-mode: forwards;
-
-  }
-p{
-    display: none;
-}
-}
-
-@keyframes count {
-    
-  0% { 
-    
-    top: 0;
-  
-  }
-  
-  100% {
-    top: -12em;
-  
-  }
-
-}*/
